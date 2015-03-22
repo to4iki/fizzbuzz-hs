@@ -1,4 +1,4 @@
-fizzBuzz-hs
+fizzbuzz-hs
 ===========
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
@@ -7,12 +7,21 @@ fizzBuzz-hs
 
 Say FizzBuzz
 
+## Description
+
+Common FizzBuzz implementation.
+
 ## Usage
 
-```haskell
+```bash
+$ ghci FizzBuzz.hs
+*Game.FizzBuzz> :t fizzbuzz
+fizzbuzz :: Int -> String
+*Game.FizzBuzz> map fizzbuzz [1..15]
+["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
 ```
 
-## Licence
+## License
 
 [MIT](https://github.com/to4iki/fizzbuzz-hs/master/LICENSE)
 
