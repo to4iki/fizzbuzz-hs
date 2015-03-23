@@ -1,4 +1,4 @@
-module Game.FizzBuzz ( fizzbuzz ) where
+module Game.FizzBuzz (fizzbuzz) where
 
 fizzbuzz :: Int -> String
 fizzbuzz = \n -> case n `gcd` 15 of
