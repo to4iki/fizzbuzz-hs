@@ -1,8 +1,10 @@
 fizzbuzz-hs
 ===========
 
+[![Build Status](https://travis-ci.org/to4iki/fizzbuzz-hs.svg)][status]
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
 
+[status]: https://travis-ci.org/to4iki/fizzbuzz-hs
 [license]: https://github.com/to4iki/fizzbuzz-hs/master/LICENSE
 
 Say FizzBuzz
