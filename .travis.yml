@@ -3,11 +3,10 @@ language: haskell
 ghc: 7.8
 
 install:
-  - cabal install hlint
   - cabal install --only-dependencies --enable-tests
 
 script:
-  - cabal configure --enable-tests && cabal build && cabal test && hlint src
+  - cabal configure --enable-tests && cabal build && cabal test
 
 notifications:
   email: false
